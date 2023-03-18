@@ -1,0 +1,21 @@
+.Profile-page{
+        height: 580px;
+        width: 230px;
+        background-color: rgb(252, 252, 252);
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+}
+.chat-profile-picture img{
+        margin-top: 20px;
+        height: 100px;
+        border-radius: 50px;
+        width: 100px;
+        background-color: green;
+        margin-bottom: 10px;
+}
+.contact-name{
+        margin-bottom: 10px;
+}

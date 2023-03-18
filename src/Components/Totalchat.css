@@ -1,0 +1,95 @@
+.Total-chat{
+        height: 570px;
+        width: 180px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 5px;
+        border-radius: 20px;
+        position: absolute;
+        margin-top: 5px;
+        /* color: white; */
+        box-shadow: 1px 1px 1px rgb(172, 183, 255), 0 0 25px rgb(89, 89, 92), 0 0 0px darkblue;
+       
+}
+
+.scroll-bar{
+/* background-color: green; */
+border-radius: 10px;
+height: 400px;
+width: 160px;
+margin-top: 20px;
+overflow: hidden;
+overflow-y: scroll;
+/* background-color: blue; */
+
+}
+.newcontact-input{
+        border-radius: 10px;
+        margin-top: 5px;
+        width: 90px;
+        border: none;
+        margin: 10px;
+        
+}
+.mapped-single-users
+{
+        padding: 2px;
+        background-color: rgb(253, 254, 255);
+        border-radius: 5px;
+        margin-left: 0px;
+        height: 30px;
+        margin: 30px;
+        justify-content: space-between;
+}
+.new-contact{
+        background-color: white;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 150px;
+        justify-items: center;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        
+}
+.add-contact{
+        cursor: pointer;
+        margin: 10px;
+        box-shadow: 1px 1px 1px rgb(238, 240, 255), 0 0 15px rgb(214, 214, 255), 0 0 0px darkblue;
+        border-radius: 60px;
+        width: 120px;
+        margin-left: 30px;
+}
+.add-chat-search{
+        display: flex;
+        /* margin-bottom: 30px; */
+        height: 100px;
+        flex-direction: column;
+}
+.div-1{
+        margin-bottom: 10px;
+        /* margin-top: 20px; */
+}
+.div-1 input{
+        box-shadow: 1px 1px 1px rgb(238, 240, 255), 0 0 15px rgb(214, 214, 255), 0 0 0px darkblue;
+
+}
+.div-2{
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 15px;
+}
+
+.div-3 input{
+        border: none;
+        border-radius: 10px;
+        /* margin-left: 5px; */
+        margin-top: 20px;
+        width: 120px;
+        background-color: rgb(173, 200, 255);
+        text-align: center;
+        
+}
+.div-1 .add-contact{
+       
+}

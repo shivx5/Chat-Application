@@ -1,0 +1,59 @@
+.Single-Chat{
+        width: 470px;
+        height: 560px;
+        background-color: rgbrgb(230, 230, 255);
+        margin-top: -515px;
+        margin-left: 190px;
+        border-radius: 20px;
+        position: relative;
+}
+.Single-Chat{
+        display: flex;
+        flex-direction: column;
+}
+.Single-Chat img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+}
+.Single-Chat .display-messages{
+        width: 425px;
+        height: 450px;
+        background-color: rgb(236, 236, 255);
+        margin-left: 20px;
+}
+.message-sent input{
+        margin-top: 10px;
+        /* margin-left: -80px; */
+        width: 320px;
+        height: 30px;
+        border: none;
+        box-shadow: 1px 1px 1px rgb(225, 229, 255), 0 0 15px rgb(213, 213, 213), 0 0 0px darkblue;
+        border-radius: 10px;
+        background-color: rgb(245, 245, 245);
+}
+.Other-Profiles{
+        display: flex;
+}
+.profile-more{
+        margin-top: -10px;
+        margin-left: 10px;
+}
+.display-messages{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-evenly; */
+        overflow: hidden;
+        overflow-y: scroll;
+}
+.display-message button{
+        margin-left: 9px;
+        border: none;
+        margin-top: 12px;
+        position: absolute;
+        font-size: 20px;
+        background-color:  rgb(236, 236, 255);
+}
+.display-message input{
+        margin-left: -40px;
+}

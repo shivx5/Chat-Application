@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import { MainChat } from './Components/MainChat';
+import {Routes,Route} from 'react-router-dom';
+import { LoginPage } from './Components/LoginPage';
 import './App.css';
+import { useState } from 'react';
+import { ProfilePage } from './Components/ProfilePage';
 
 function App() {
+  const[EnableLogin,SetEnableLogin]=useState(false)
+  function LogintoMainPage()
+  {
+
+    console.log(EnableLogin)
+         SetEnableLogin(!EnableLogin);
+        //  console.log(EnableLogin);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!EnableLogin && <LoginPage logintoPage={LogintoMainPage}/>}
+      {EnableLogin && <MainChat/>}
+      <Routes>
+        <Route path='/profile' element={<ProfilePage/>}></Route>
+      </Routes>
     </div>
   );
 }

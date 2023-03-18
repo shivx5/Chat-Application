@@ -1,0 +1,9 @@
+.Main-Chat{
+        background-color: rgb(67, 70, 255);
+        height: 600px;
+        width: 1000px;
+        margin-left: 250px;
+        border-radius: 30px;
+        margin-top: 70px;
+        display: flex;
+}

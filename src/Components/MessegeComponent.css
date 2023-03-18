@@ -1,0 +1,21 @@
+.ChatMessageComponent{
+        background-color: rgb(243, 243, 255);
+        /* width: 100px;
+        height: 20px; */
+        text-align: left;
+        padding: 20px;
+        margin-top: 10px;
+        /* border: 2px solid white; */
+        width: fit-content;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        border-radius: 20px 20px 20px 0px;
+        box-shadow: 1px 1px 1px rgb(225, 229, 255), 0 0 15px rgb(213, 213, 213), 0 0 0px darkblue;
+
+}
+.display-individual-messeges{
+background-color: white;
+
+margin-left: 10px;
+
+}
